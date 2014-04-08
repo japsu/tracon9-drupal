@@ -1,0 +1,12 @@
+name = Tracon 9
+description = 2014.tracon.fi
+core = 7.x
+
+stylesheets[all][] = css/bootstrap.min.css
+stylesheets[all][] = css/style.css
+
+scripts[] = js/bootstrap.min.js
+
+regions[main_menu] = Main Menu
+regions[content] = Content
+regions[sidebar_ads] = Sidebar Ads

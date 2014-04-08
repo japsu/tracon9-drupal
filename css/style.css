@@ -1,0 +1,66 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:300,400,500,700);
+* {
+  font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+}
+.navbar {
+  margin-bottom: 0;
+}
+.tracon9-jumbotron {
+  background: #0b0213 url("../img/ritari_levea_mockup.jpg") no-repeat center center;
+  height: 360px;
+}
+.navbar.navbar-tracon9 {
+  background: #360a5c;
+}
+.navbar.navbar-tracon9 .navbar-nav {
+  margin-top: 2px;
+  font-weight: bold;
+}
+.navbar.navbar-tracon9 .navbar-nav li > a {
+  color: #dcdcdc;
+}
+.navbar.navbar-tracon9 .navbar-nav li > a:hover {
+  color: #fff;
+}
+.navbar-logo {
+  background: transparent url("../img/tracon9_logo_header.png") no-repeat center top;
+  width: 185px;
+  height: 75px;
+}
+@media (min-width: 750px) {
+  .navbar-logo {
+    position: absolute;
+    top: 0;
+  }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #0b0213;
+  font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+}
+.btn-tracon {
+  background: #360a5c;
+  color: #fff;
+}
+.btn-tracon:hover {
+  background: #510f8a;
+  color: #fff;
+}
+@media (min-width: 992px) {
+  .ads {
+    text-align: right;
+  }
+}
+@media (max-width: 991px) {
+  .ads img {
+    margin-right: 10px;
+  }
+}
+.ads img {
+  display: inline-block;
+  margin-top: 10px;
+}
