@@ -1,4 +1,6 @@
 <?php
+/* Parts marked as "COPY-PASTE" are NOT written by Japsu. ;( */
+
 /* BEGIN COPY-PASTE FROM 2013 */
 function parse_menu($menuarr) {
   $return = Array();
